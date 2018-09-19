@@ -1,6 +1,6 @@
 if myHero.charName ~= "Jhin" then return end
 
-local menu = MenuElement({id = "NotC", name = "Nicky"..myHero.charName, type = MENU})
+local menu = MenuElement({id = "NotCJhin", name = "NotC"..myHero.charName, type = MENU})
     menu:MenuElement({id = "Combo", name = "Combo", type = MENU})
     menu:MenuElement({id = "Harass", name = "Harass", type = MENU})
     menu:MenuElement({id = "LastHit", name = "LastHit", type = MENU})
